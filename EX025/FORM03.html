@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form03</title>
+</head>
+<body>
+ <h1>Form Test</h1>
+<form action="register.php"method="get"autocomplete="on">
+
+  <p>
+
+<label for="iName">Name:</label>
+<input type="text"name="name"id="iName"required maxlength="30"placeholder="Full Name"autocomplete="name">
+
+</p>
+
+<p>
+<label for="iAverage">Average</label>
+<input type="number"name="average"id="iAverage" min="0"max="10"placeholder="0 to 10"step="0.5"required>
+
+
+
+</p>
+
+
+
+<p>
+
+<input type="submit"value="Send">
+<input type="reset"value="Clean">
+
+</p>
+
+</form>
+ 
+
+</body>
+</html>
